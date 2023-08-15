@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5c58b66c0a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- menu fixado -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+      <div class="container">
+        <a class="navbar-brand" href="#">Amanda</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Navegação do toggle"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="nabarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#inicio">Ínicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfólio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="bgimage" id="inicio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="glass">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 heroText">
+              <h1 class="heroTitle">Amanda Kenes</h1>
+              <p class="heroDesc">Transformando linhas de código em experiências visuais impactantes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="sobre">
+      <div class="container mt-4 pt-4">
+        <h2 class="text-center">Sobre mim</h2>
+        <div class="row mt-4">
+          <!-- foto de mim -->
+          <div class="col-lg-4">
+            <img src="img/about-me-img.jpg" alt="Sobre mim" class="about-img" />
+          </div>
+          <!-- infos sobre mim -->
+          <div class="col-lg-8">
+            <p class="about-me">
+              Como estudante dedicada de Análise e Desenvolvimento de Sistemas,
+              meu entusiasmo pelo mundo da tecnologia me impulsiona a buscar
+              constantemente a excelência. Minha trajetória atual está focada no
+              desenvolvimento front-end, embora minha paixão abranja a área de
+              programação FullStack e a área de Data Science.
+              <br />
+              Possuo sólidos conhecimentos em
+              <span>HTML, CSS, JavaScript, Bootstrap</span> e
+              <span>React</span>. 
+              Meu contínuo aperfeiçoamento me levou a
+              explorar a fundo o JavaScript e a embarcar em uma jornada de aprendizado em PHP e Java.
+            </p>
+            <div class="row mt-3">
+              <div class="col-md-6">
+                <ul class="about-list">
+                  <li>Nome: Amanda</li>
+                  <li>Idade: 21 anos</li>
+                  <li>Ocupação: Estudante</li>
+                </ul>
+              </div>
+            </div>
+            <!-- paragráfo + infos -->
+            <div class="row mt-3 about-me">
+              <p>
+                Além das habilidades técnicas, minhas soft skills comunicativas,
+                organizacionais, proativas e responsáveis desempenham um papel
+                fundamental no meu crescimento. Desde cedo, encontrei afinidade
+                com a área de tecnologia, e isso se reflete tanto nas minhas
+                competências técnicas quanto na minha abordagem pessoal.
+                <br />
+                Estou ansiosa para aplicar minha paixão, habilidades e
+                determinação para gerar resultados significativos e contribuir
+                de maneira relevante no ambiente profissional.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- habilidades -->
+    <section id="habilidades">
+      <div class="container">
+        <h2 class="text-center">Habilidades</h2>
+        <!-- uma linha -->
+        <div class="row">
+          <!-- uma coluna -->
+          <div class="col-lg-4 mt-4">
+            <div class="card skills-text">
+              <div class="card-body" id="html-card">
+                <i class="fa-brands fa-html5 skills-icon"></i>
+                <h3 class="card-title mt-3" id="html-title">HTML5</h3>
+                <p class="card-text mt-3">
+                  Minha destreza em HTML se reflete na habilidade de construir estruturas web coesas e semanticamente corretas. Ao empregar marcações e elementos de forma estratégica, sou capaz de materializar layouts e conteúdos de maneira fluida. Com isso, posso criar interfaces que não apenas agradam visualmente, mas também garantem a usabilidade e a acessibilidade. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- segunda coluna -->
+          <div class="col-lg-4 mt-4">
+            <div class="card skills-text">
+              <div class="card-body card-html" id="css-card">
+                <i class="fa-brands fa-css3 skills-icon"></i>
+                <h3 class="card-title mt-3" id="css-title">CSS3</h3>
+                <p class="card-text mt-3">
+                  Com domínio em CSS, dou vida às visões digitais. Minhas
+                  estilizações refinam cada detalhe das páginas web, garantindo
+                  design atraente e consistente. Busco ir além da simples
+                  estilização de páginas web. Minha habilidade se estende à
+                  criação de layouts cativantes e responsivos, combinando cores,
+                  tipografia e espaçamento para proporcionar uma experiência
+                  visualmente agradável.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- terceira coluna -->
+          <div class="col-lg-4 mt-4">
+            <div class="card skills-text">
+              <div class="card-body" id="js-card">
+                <i class="fa-brands fa-square-js skills-icon"></i>
+                <h3 class="card-title mt-3" id="js-title">JavaScript</h3>
+                <p class="card-text mt-3">
+                  Na busca constante pelo aprimoramento em JavaScript, colaboro ativamente na criação de websites interativos e altamente funcionais. Desenvolvo recursos dinâmicos que enriquecem a experiência do usuário, traduzindo lógica em ações concretas. Minha habilidade fortalece a funcionalidade geral dos projetos, agregando inovação e qualidade.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- outra linha -->
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card skills-text">
+              <div class="card-body" id="bootstrap-card">
+                <i class="fa-brands fa-bootstrap skills-icon"></i>
+                <h3 class="card-title mt-3">Bootstrap</h3>
+                <p class="card-text mt-3">
+                  Com proficiência em Bootstrap, moldo layouts web com agilidade e responsividade. Utilizo a estrutura para criar designs modernos e adaptáveis, garantindo uma experiência consistente em diferentes dispositivos. Procuro sempre usar minhas habilidades de forma que resultem em interfaces atrativas e eficazes, otimizando a usabilidade e a estética.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card skills-text">
+              <div class="card-body" id="react-card">
+                <i class="fa-brands fa-react skills-icon"></i>
+                <h3 class="card-title mt-3">React</h3>
+                <p class="card-text mt-3">
+                  Familiarizada em React, estou começando a construir aplicações web interativas. Utilizo essa biblioteca para criar interfaces simples e funcionais, buscando proporcionar uma experiência agradável aos usuários. Minha abordagem está em desenvolvimento, visando aprimorar a estrutura de componentes e explorar as possibilidades dessa tecnologia promissora.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card skills-text">
+              <div class="card-body" id="git-card">
+                <i class="fa-solid fa-code-branch skills-icon"></i>
+                <h3 class="card-title mt-3">Git & GitHub</h3>
+                <p class="card-text mt-3">
+                 Também possuo conhecimento sólido em Git e GitHub, utilizando na gestão eficaz de controle de versão e colaboração em projetos, para rastrear alterações, coordenar o trabalho em equipe e implementar soluções de forma coesa. Com essa habilidade, posso garantir a integridade do código-fonte, facilitar a revisão de contribuições e manter uma linha de desenvolvimento organizada. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section id="portfolio">
+      <div class="container mt-3">
+        <h2 class="text-center mb-4">Portfólio</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="portfolio/thumbs/estanteThumb.png"
+                alt="Miniatura do projeto de estante usando html, css e javascript"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Projeto Estante de Livros</h3>
+                <p class="card-text text-center">
+                  Primeiro projeto com HTML e CSS, criando uma estante de livros
+                  cativante. Combinei estruturas sólidas em HTML com estilos
+                  atraentes em CSS para desenvolver uma interface intuitiva. Foi
+                  uma emocionante introdução ao mundo do desenvolvimento web,
+                  onde aprendi a controlar layout, cores e tipografia para criar
+                  algo visualmente agradável e funcional. Este projeto marcou o
+                  início empolgante da minha jornada no desenvolvimento web.
+                </p>
+                <div class="text-center mb-3">
+                  <a href="portfolio/estante/index.html" target="_blank"
+                    >Link</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="portfolio/thumbs/locadoraThumb.png"
+                alt="Miniatura do projeto de uma locadora usando html, css e js"
+                style="width: 100%"
+              />
+              <div class="card-body movies-card">
+                <h3 class="card-title">Projeto Locadora 2000</h3>
+                <p class="card-text text-center">
+                  Primeiro projeto de integração com JavaScript, uma plataforma de cadastro de filmes para a fictícia "Locadora 2000". Essa aplicação permite a inserção de informações essenciais como nome, diretor, gênero, atores principais e classificação IMDb, simplificando a organização da coleção de filmes. Com uma interface interativa e eficiente, os usuários podem registrar e acessar informações de filmes de maneira ágil e descomplicada.
+                </p>
+                <div class="text-center mb-3">
+                  <a
+                    id="movies-link"
+                    href="portfolio/locadora/index.html"
+                    target="_blank"
+                    >Link</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="portfolio/thumbs/marioThumb.png"
+                alt="Miniatura do projeto jogo do mario com javascript"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Projeto Mario Web</h3>
+                <p class="card-text text-center">
+                  Projeto de jogo que se baseia majoritariamente no JavaScript.
+                  Um passo significativo para aprimorar minhas habilidades na
+                  linguagem. O uso extensivo do JavaScript permitiu a criação de
+                  mecânicas de jogo fluidas, como movimentação, pulos e
+                  colisões. Ao longo do desenvolvimento, aprofundei meu
+                  entendimento da lógica de programação e da manipulação do DOM,
+                  resultando em uma experiência divertida e recompensadora.
+                </p>
+                <div class="text-center mb-3">
+                  <a href="portfolio/mario/index.html" target="_blank">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="portfolio/thumbs/cartaoThumb.png"
+                alt="Miniatura do projeto cartão utilizando html e css"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Projeto Cartão Virtual</h3>
+                <p class="card-text text-center">
+                  Através da exploração de recursos avançados, como animações,
+                  sombras e posicionamento preciso, fui capaz de desenvolver um
+                  cartão virtual estilizado e interativo. Enfrentei desafios de
+                  design complexos, refinando meu conhecimento de seletores,
+                  propriedades e técnicas de estilização. Este projeto não
+                  apenas testou meus limites no CSS, mas também expandiu minha
+                  compreensão das possibilidades criativas que o CSS oferece.
+                </p>
+                <div class="text-center mb-3">
+                  <a href="portfolio/cartao/index.html" target="_blank">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contato -->
+    <section id="contato">
+      <div class="container mt-3 mb-3 contact-content">
+        <h2 class="text-center">Contate-me</h2>
+
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110663.4548131399!2d-51.260196403197675!3d-29.91519473789029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951970087c0ae1e7%3A0xaeee7ae21fb70220!2sCanoas%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1690846138362!5m2!1spt-BR!2sbr"
+              width="550"
+              height="550"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="card contact-text">
+                  <div class="card-body">
+                    <i class="fa-solid fa-mobile contact-icon"></i>
+                    <h3>Telefone</h3>
+                    <a href="https://wa.me/5551992515291" target="_blank">(51) 9 9251-5291</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card contact-text">
+                  <div class="card-body">
+                    <i class="fa-solid fa-at contact-icon"></i>
+                    <h3>E-mail</h3>
+                    <a href="https://malito:amandakeness@outlook.com.br" target="_blank">amandakeness@outlook.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-4 contact-info">
+              <div class="col-lg-3">
+                <a href="https://github.com/amandakenes" target="_blank">
+                  <i class="fa-brands fa-github social-icon"></i>
+                </a>
+              </div>
+              <div class="col-lg-3">
+                <a href="https://linkedin.com/in/amandakenes" target="_blank">
+                  <i class="fa-brands fa-linkedin social-icon"></i>
+                </a>
+              </div>
+              <div class="col-lg-3">
+                <a href="https://instagram/amandakenes.com.br" target="_blank">
+                  <i class="fa-brands fa-instagram social-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-center text-black">
+      <div class="text-center p-3 footer-dev">
+        <p><span>&#169</span> Desenvolvido exclusivamente por <a href="#inicio">Amanda Kenes</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

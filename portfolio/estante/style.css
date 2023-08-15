@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f2e7dc;
+    color: #0d0d0d;
+    text-align: justify;
+    width: 85%;
+    margin: auto;
+}
+
+section {
+    padding: 64px 256px;
+}
+
+table {
+    width: 100%;
+  }
+
+td {
+    background-color: #a9d9d0;
+    padding-left: 5px;
+}
+
+td, th {
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+tr {
+    background-color: #038c7f;
+  }
+
+p {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h3 {
+    color: #000;
+}
+
+a:link {
+    color: #f2e7dc;
+}
+
+a:visited {
+    color: #95bfb8;
+}
+
+a:hover {
+    color: #025454;
+}
+
+a:active {
+    color: #0d0d0d;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.bookTitle {
+  background-color: #a9d9d0;
+  color: #027373;
+  text-align: center;
+}
+
+#sectionHP,
+#sectionAnne,
+#sectionEvelyn {
+  background-color: #a9d9d0;
+}
+
+#header {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+#your-library {
+    text-indent: 0;
+    text-align: center;
+}
+
+#summary {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer {
+    background-color: #038c7f;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
